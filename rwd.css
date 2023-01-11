@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.rwd{
+    background-color: rgb(25, 97, 73);
+    display: flex;
+    justify-content: center;
+    /* font-size: 1.5rem; */
+    padding: 5px;
+}
+.rd{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.rd:hover{
+    background-color: rgb(107, 128, 119);
+}
+@media screen and (max-width: 600px) {
+    .rwd{
+        flex-direction: column;
+        padding: 5px  ;
+    }
+    .rd{
+        background-color: rgb(84, 7, 156);
+        margin: 5px 0;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+}
